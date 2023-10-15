@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnXpert</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Lato:wght@300&family=Orbitron&family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <img src="logo.svg" alt="" class="logo">
+            
+            <ul class="nav__menu" id="navmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-btn"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></button>
+            <button id="close-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Welcome to LearnXpert: Your Gateway to Knowledge</h1>
+                <p>Are you ready to embark on a journey of lifelong learning? Look no further than LearnXpert, your one-stop destination for quality education in a wide range of categories.</p>
+                
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header__right">
+                <img src="images/hero__image.png" alt="">
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories-left">
+                <h1>Categories</h1>
+                <p>At LearnXpert, we believe that education should be accessible to all and cover a diverse array of subjects. Our platform offers courses in the following categories. </p>
+
+                <a href="courses.html" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <div class="categories-right__container">
+                    <article class="category">
+                        <span class="category__icon"><i class="uil uil-megaphone"></i></span>
+                        <h5>Marketing</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, ullam.</p>
+                    </article>
+
+                    <article class="category">
+                        <span class="category__icon"><i class="uil uil-database"></i></span>
+                        <h5>Data Science</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, ullam.</p>
+                    </article>
+
+                    
+                    <article class="category">
+                        <span class="category__icon"><i class="uil uil-archive"></i></span>
+                        <h5>Management</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, ullam.</p>
+                    </article>
+
+                    <article class="category">
+                        <span class="category__icon"><i class="uil uil-history"></i></i></span>
+                        <h5>History</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, ullam.</p>
+                    </article>
+
+                    <article class="category">
+                        <span class="category__icon"><i class="uil uil-dumbbell"></i></span>
+                        <h5>Fitness</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, ullam.</p>
+                    </article>
+
+                    <article class="category">
+                        <span class="category__icon"><i class="uil uil-database"></i></span>
+                        <h5>Data Science</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, ullam.</p>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="courses">
+        <h1>Our Popular Courses</h1>
+        <p>Our platform features a curated selection of popular courses that have garnered praise from our learners.</p>
+        <p>Here are a few of our trending courses</p>
+
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="images/imgone.png" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Data Science and Machine Learning Bootcamp</h4>
+                    <p>This comprehensive course covers the fundamentals of data science, machine learning, and artificial intelligence.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course__image">
+                    <img src="images/img2.png" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Project Management Professional (PMP) Certification</h4>
+                    <p>This comprehensive course covers the fundamentals of data science, machine learning, and artificial intelligence.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="images/img3.png" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Data Science and Machine Learning Bootcamp</h4>
+                    <p>This comprehensive course covers the fundamentals of data science, machine learning, and artificial intelligence.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <p class="faqs__text">Here are some frequently asked questions to guide you choosing LearnXpert <br> "Have Questions? We Have Answers!</p>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>How do I enroll in a course?</h5>
+                    <p>Enrolling in a course on LearnXpert is easy. Simply browse through our categories or popular courses, select the course you're interested in, and click the "Enroll" button. You'll be guided through the registration and payment process.</p>
+                </div>
+            </article>
+            
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>Is there a refund policy?</h5>
+                    <p>Yes, LearnXpert offers a 30-day refund policy. If you're not satisfied with a course, you can request a refund within 30 days of purchase.</p>
+                </div>
+            </article>
+            
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>Are there any prerequisites for courses?</h5>
+                    <p>Course prerequisites vary, but most courses on LearnXpert are designed to accommodate learners of all levels. The course description will outline any prerequisites or recommended background knowledge.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>Do you offer certifications for completing courses?</h5>
+                    <p>Yes, LearnXpert provides certificates of completion for most courses. These certificates can be a valuable addition to your resume and showcase your newfound skills to employers or peers. Certificates are typically available for download or can be shared directly on your LinkedIn profile.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>Can I access courses on mobile devices?</h5>
+                    <p>Yes, LearnXpert is mobile-friendly. You can access courses on your smartphone or tablet through our responsive website or dedicated mobile app.</p>
+                </div>
+            </article>
+            
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>Are there any free courses available on LearnXpert?</h5>
+                    <p>Yes, we offer a selection of free courses to help learners get started. These courses cover a wide range of topics and are a great way to explore our platform. Simply browse the "Free Courses" section to discover and enroll in these complimentary offerings.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>How long do I have access to a course?</h5>
+                    <p>You'll have lifetime access to the course materials, so you can learn at your own pace and revisit the content whenever you like.
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h5>Can I interact with instructors or other learners?</h5>
+                    <p>Absolutely! LearnXpert encourages active learning and interaction. Many courses have discussion forums, where you can ask questions, share insights, and connect with both instructors and fellow learners. It's a great way to build a supportive learning community.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <section class="container testimonials swiper mySwiper">
+        <h2>Testimonial</h2>
+        <p>What Our Learners Are Saying About Us</p>
+        <div class=" testimonials__container swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/test1 (2).jpg" alt="" class="testimonial__pic">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Bashir Kane</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>LearnXpert has been a game-changer for me. I enrolled in the Digital Marketing Mastery course, and the content was incredibly comprehensive. The instructors were engaging, and I loved the practical assignments. The best part? I landed a job even before completing the course! Highly recommend.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/test22 (1).jpg" alt="" class="testimonial__pic">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Shola Aliyu</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I've taken courses on various online platforms, but LearnXpert stands out. I recently finished the 'Data Science for Beginners' course, and I'm blown away by how well it was structured. The instructors explained complex concepts in a simple way. The hands-on projects were challenging but rewarding.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/test23.jpg" alt="" class="testimonial__pic">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Shola Aliyu</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I've taken courses on various online platforms, but LearnXpert stands out. I recently finished the 'Data Science for Beginners' course, and I'm blown away by how well it was structured. The instructors explained complex concepts in a simple way. The hands-on projects were challenging but rewarding.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/test3.jpeg" alt="" class="testimonial__pic">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Shola Aliyu</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I've taken courses on various online platforms, but LearnXpert stands out. I recently finished the 'Data Science for Beginners' course, and I'm blown away by how well it was structured. The instructors explained complex concepts in a simple way. The hands-on projects were challenging but rewarding.</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div> 
+    </section>
+  
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <div class="footer__logo">
+                    <img src="logo.svg" alt="">
+                </div>
+                <p>Whether you're a student looking to enhance your academic skills or a professional aiming to upskill in your career, LearnXpert has something for everyone.</p>
+           </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="footer__menu1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Primary</h4>
+                <ul class="footer__menu1">
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="about.html">Terms and conditions</a></li>
+                    <li><a href="courses.html">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <p>+234 80 68571 275</p>
+                <p>supportlearnXpert.com</p>
+
+                <ul class="footer__menu3">
+                    <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; Sulyman Abubakar Shola</small>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "1",
+        spaceBetween: 30,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        600: {
+            slidesPerView: 2
+        }
+      }
+
+    });
+    </script>
+</body>
+</html>

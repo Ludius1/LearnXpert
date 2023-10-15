@@ -1,0 +1,141 @@
+.about__achievement__container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 4rem;
+}
+.acheivement-right__category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+.acheivement__cards {
+    background: var(---color-bg2);
+    padding: 1.6rem;
+    text-align: center;
+    border-radius: 1rem;
+    transition: var(--transition);
+}
+.acheivement__cards:hover {
+    background: var(---color-bg1);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+.acheivement__icon {
+    background: var(---color-danger);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.acheivement__cards:nth-child(2) .acheivement__icon {
+    background: var(---color-success);
+}
+.acheivement__cards:nth-child(3) .acheivement__icon {
+    background: var(---color-primary);
+}
+.acheivement__cards p {
+    margin-top: 1rem;
+}
+
+
+
+
+.team {
+    background: var(---color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.team-container__category {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.team__category {
+    background: var(---color-bg2);
+    border: 1px solid transparent;
+    padding: 2rem;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+.team__category:hover {
+    background:  transparent;
+    border-color: var(---color-primary);
+}
+.team-img img {
+    filter: saturate(0);
+}
+.team-img:hover img {
+    filter: saturate(1);
+}
+.team__info * {
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.team__info p {
+    color: var(---color-light);
+}
+.team__socials {
+    position: absolute;
+    right: -100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    background: var(---color-primary);
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+.team__category:hover .team__socials{
+    right: 0;
+}
+.team__socials a {
+    padding: 1rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .about__acheivement {
+        margin-top:  2rem;
+    }
+    .about__achievement__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .acheivement__left {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .team-container__category {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    .team__category {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .acheivement-right__category {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    
+    .team-container__category {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    .team__category {
+        padding: 0;
+    }
+    .team__category p {
+        margin-bottom: 1rem;
+     }
+}
+    

@@ -1,0 +1,8 @@
+.courses {
+    margin: 0;
+}
+@media screen and (max-width: 600px) {
+    .courses {
+        margin-top: 10rem;
+    }
+}
